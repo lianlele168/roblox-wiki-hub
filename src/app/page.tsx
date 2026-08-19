@@ -100,6 +100,18 @@ const WIKIS: GameWiki[] = [
     badge: 'Bankai Quests',
     description: 'Reroll codes, Weapon & Shikai tier list, Clan rarity buffs, Bankai unlock walkthroughs, and trade values.',
     tags: ['Reroll Codes', 'Shikai & Bankai', 'Clan Buffs', 'Trade Value List']
+  },
+  {
+    id: 'rell-seas',
+    name: 'RELL SEAS Wiki',
+    subdomain: 'rellseas.robloxwikihub.com',
+    url: 'https://rellseas.robloxwikihub.com',
+    category: 'Anime RPG / Open World',
+    icon: '🌊',
+    color: 'from-blue-600 to-amber-500',
+    badge: 'Gacha & Map Tools',
+    description: 'Active codes, Fruit Gacha Simulator, Level 1-1000 Stat Build Planner, Z-F skill movesets, and First Sea interactive map.',
+    tags: ['Active Codes', 'Gacha Simulator', 'Build Planner', 'Sea Map']
   }
 ];
 
@@ -176,8 +188,8 @@ export default function HomePage() {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
           <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-indigo-400">7</div>
-            <div className="text-xs text-slate-400">Active Game Databases</div>
+            <div className="text-2xl font-black text-indigo-400">8</div>
+            <div className="text-xs text-slate-400 font-medium">Active Game Databases</div>
           </div>
           <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
             <div className="text-2xl font-black text-cyan-400">100%</div>
@@ -327,6 +339,7 @@ export default function HomePage() {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300 mb-3">More Databases</h4>
             <ul className="space-y-2 text-xs">
+              <li><a href="https://rellseas.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 font-bold text-amber-400 transition-colors">RELL SEAS Wiki 🌊</a></li>
               <li><a href="https://destinedrivals.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Destined Rivals Wiki</a></li>
               <li><a href="https://typesoul.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Type Soul Wiki</a></li>
             </ul>
