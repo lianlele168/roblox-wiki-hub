@@ -136,6 +136,18 @@ const WIKIS: GameWiki[] = [
     badge: 'DPS & Trait Tools',
     description: 'Interactive Unit DPS Calculator, Trait Reroll Simulator, 2026 Meta Tier List, Evolution Crafting Recipes, and active codes.',
     tags: ['DPS Calculator', 'Trait Simulator', 'Meta Tier List', 'Evolution Recipes']
+  },
+  {
+    id: 'sols-rng',
+    name: "Sol's RNG Wiki",
+    subdomain: 'solsrng.robloxwikihub.com',
+    url: 'https://solsrng.robloxwikihub.com',
+    category: 'RNG Aura & Crafting',
+    icon: '✨',
+    color: 'from-amber-500 to-purple-600',
+    badge: 'Aura Roll & Crafting Tools',
+    description: 'Interactive Aura Roll Simulator, Potion & Gauntlet Crafting Calculator, 2026 Meta Tier List, Biome Multipliers, and active codes.',
+    tags: ['Aura Simulator', 'Crafting Calculator', 'Meta Tier List', 'Biome Guide']
   }
 ];
 
@@ -212,7 +224,7 @@ export default function HomePage() {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
           <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-indigo-400">10</div>
+            <div className="text-2xl font-black text-indigo-400">11</div>
             <div className="text-xs text-slate-400 font-medium">Active Game Databases</div>
           </div>
           <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
@@ -363,7 +375,8 @@ export default function HomePage() {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300 mb-3">More Databases</h4>
             <ul className="space-y-2 text-xs">
-              <li><a href="https://animevanguards.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 font-bold text-purple-400 transition-colors">Anime Vanguards Wiki 🛡️</a></li>
+              <li><a href="https://solsrng.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 font-bold text-amber-400 transition-colors">Sol's RNG Wiki ✨</a></li>
+              <li><a href="https://animevanguards.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Anime Vanguards Wiki 🛡️</a></li>
               <li><a href="https://rivals.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Rivals Wiki 🎯</a></li>
               <li><a href="https://rellseas.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">RELL SEAS Wiki 🌊</a></li>
               <li><a href="https://destinedrivals.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Destined Rivals Wiki</a></li>
