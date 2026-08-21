@@ -112,6 +112,18 @@ const WIKIS: GameWiki[] = [
     badge: 'Gacha & Map Tools',
     description: 'Active codes, Fruit Gacha Simulator, Level 1-1000 Stat Build Planner, Z-F skill movesets, and First Sea interactive map.',
     tags: ['Active Codes', 'Gacha Simulator', 'Build Planner', 'Sea Map']
+  },
+  {
+    id: 'rivals',
+    name: 'Rivals Wiki',
+    subdomain: 'rivals.robloxwikihub.com',
+    url: 'https://rivals.robloxwikihub.com',
+    category: 'Fast-Paced FPS / Shooter',
+    icon: '🎯',
+    color: 'from-red-600 to-rose-600',
+    badge: 'Crosshair & TTK Tools',
+    description: 'Interactive Crosshair Code Generator, Weapon TTK Calculator, 2026 Meta Tier List, Map Callouts, and active codes.',
+    tags: ['Crosshair Generator', 'Weapon TTK', 'Meta Tier List', 'Active Codes']
   }
 ];
 
@@ -188,7 +200,7 @@ export default function HomePage() {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
           <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-indigo-400">8</div>
+            <div className="text-2xl font-black text-indigo-400">9</div>
             <div className="text-xs text-slate-400 font-medium">Active Game Databases</div>
           </div>
           <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
@@ -339,7 +351,8 @@ export default function HomePage() {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300 mb-3">More Databases</h4>
             <ul className="space-y-2 text-xs">
-              <li><a href="https://rellseas.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 font-bold text-amber-400 transition-colors">RELL SEAS Wiki 🌊</a></li>
+              <li><a href="https://rivals.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 font-bold text-red-400 transition-colors">Rivals Wiki 🎯</a></li>
+              <li><a href="https://rellseas.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">RELL SEAS Wiki 🌊</a></li>
               <li><a href="https://destinedrivals.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Destined Rivals Wiki</a></li>
               <li><a href="https://typesoul.robloxwikihub.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">Type Soul Wiki</a></li>
             </ul>
