@@ -18,6 +18,18 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'grow-a-garden',
+    name: 'Grow a Garden Wiki',
+    subdomain: 'growagarden.robloxwikihub.com',
+    url: 'https://growagarden.robloxwikihub.com',
+    category: 'Farming Simulation',
+    icon: '🌱',
+    color: 'from-green-500 to-emerald-600',
+    badge: '🔥 New',
+    description: 'Active redeem codes, Crop & Seed Tier List, Mutation Value Calculator, and beginner farming guide for Grow a Garden.',
+    tags: ['Active Codes', 'Crop Tier List', 'Mutation Calc', 'Beginner Guide']
+  },
+  {
     id: 'anime-origins',
     name: 'Anime Origins Wiki',
     subdomain: 'animeorigins.robloxwikihub.com',
