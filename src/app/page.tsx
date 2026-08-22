@@ -26,8 +26,8 @@ const WIKIS: GameWiki[] = [
     icon: '🎣',
     color: 'from-sky-500 to-cyan-600',
     badge: '🔥 New',
-    description: 'Active redeem codes, Rod Tier List, Catch & Profit Calculator, 100+ Fish Index, Bait multipliers, Altar Enchants, and Secret Rod Crafting.',
-    tags: ['Active Codes', 'Rod Tier List', 'Profit Calculator', 'Fish Database', 'Enchantments', 'Secret Crafting']
+    description: 'Active redeem codes, Rod Tier List, Catch & Profit Calculator, 100+ Fish Index, Weather Totems, Boats Speed, Altar Enchants, Quests & Aquarium.',
+    tags: ['Active Codes', 'Rod Tier List', 'Profit Calculator', 'Weather Totems', 'Boats Speed', 'Quests & NPCs']
   },
   {
     id: 'grow-a-garden',
