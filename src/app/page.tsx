@@ -26,8 +26,8 @@ const WIKIS: GameWiki[] = [
     icon: '🌱',
     color: 'from-green-500 to-emerald-600',
     badge: '🔥 New',
-    description: 'Active redeem codes, Crop & Seed Tier List, Mutation Calculator, Weather Events, Gear Sprinklers, and Pets Defense guide.',
-    tags: ['Active Codes', 'Crop Tier List', 'Mutation Calc', 'Weather Events', 'Sprinklers', 'Pets Defense']
+    description: 'Active redeem codes, Crop Tier List, Mutation Calculator, Trading Values, Ascension Rebirth, Soil & Fertilizers, Weather Events, and Pets Defense.',
+    tags: ['Active Codes', 'Crop Tier List', 'Mutation Calc', 'Trading Values', 'Ascension Guide', 'Soil & Fertilizer']
   },
   {
     id: 'anime-origins',
