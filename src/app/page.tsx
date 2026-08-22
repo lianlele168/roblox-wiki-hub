@@ -18,6 +18,42 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'anime-origins',
+    name: 'Anime Origins Wiki',
+    subdomain: 'animeorigins.robloxwikihub.com',
+    url: 'https://animeorigins.robloxwikihub.com',
+    category: 'Anime Tower Defense',
+    icon: '⚡',
+    color: 'from-amber-500 to-orange-600',
+    badge: '🔥 New',
+    description: 'Unit Tier List, active redeem codes, Trait Reroll Simulator, and full Evolution Recipe guide for Anime Origins.',
+    tags: ['Active Codes', 'Unit Tier List', 'Trait Simulator', 'Evolution Guide']
+  },
+  {
+    id: 'pressure',
+    name: 'Pressure Wiki',
+    subdomain: 'pressure.robloxwikihub.com',
+    url: 'https://pressure.robloxwikihub.com',
+    category: 'Horror Survival',
+    icon: '👻',
+    color: 'from-red-700 to-rose-800',
+    badge: '🔥 New',
+    description: 'Complete entity survival guide, Kroner codes, room-by-room tactics, badge unlocks, and item database for Pressure.',
+    tags: ['Active Codes', 'Monster Guide', 'Badge Guide', 'Survival Tips']
+  },
+  {
+    id: 'jujutsu-shenanigans',
+    name: 'Jujutsu Shenanigans Wiki',
+    subdomain: 'jujutsushenanigans.robloxwikihub.com',
+    url: 'https://jujutsushenanigans.robloxwikihub.com',
+    category: 'Anime PvP Fighter',
+    icon: '🥷',
+    color: 'from-purple-600 to-indigo-700',
+    badge: '🔥 New',
+    description: 'PvP Tier List, character Combo Builder, Awakening unlock guide, and active redeem codes for Jujutsu Shenanigans.',
+    tags: ['Active Codes', 'PvP Tier List', 'Combo Builder', 'Awakening Guide']
+  },
+  {
     id: 'jujutsu-infinite',
     name: 'Jujutsu Infinite Wiki',
     subdomain: 'jujutsuinfinite.robloxwikihub.com',
