@@ -26,8 +26,8 @@ const WIKIS: GameWiki[] = [
     icon: '🌱',
     color: 'from-green-500 to-emerald-600',
     badge: '🔥 New',
-    description: 'Active redeem codes, Crop & Seed Tier List, Mutation Value Calculator, and beginner farming guide for Grow a Garden.',
-    tags: ['Active Codes', 'Crop Tier List', 'Mutation Calc', 'Beginner Guide']
+    description: 'Active redeem codes, Crop & Seed Tier List, Mutation Calculator, Weather Events, Gear Sprinklers, and Pets Defense guide.',
+    tags: ['Active Codes', 'Crop Tier List', 'Mutation Calc', 'Weather Events', 'Sprinklers', 'Pets Defense']
   },
   {
     id: 'anime-origins',
