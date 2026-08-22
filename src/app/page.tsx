@@ -18,6 +18,18 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'fish-it',
+    name: 'Fish It! Wiki (Fisch)',
+    subdomain: 'fishit.robloxwikihub.com',
+    url: 'https://fishit.robloxwikihub.com',
+    category: 'Fishing Simulation',
+    icon: '🎣',
+    color: 'from-sky-500 to-cyan-600',
+    badge: '🔥 New',
+    description: 'Active redeem codes, Rod Tier List, Catch & Profit Calculator, 100+ Fish Index, Bait multipliers, Altar Enchants, and Secret Rod Crafting.',
+    tags: ['Active Codes', 'Rod Tier List', 'Profit Calculator', 'Fish Database', 'Enchantments', 'Secret Crafting']
+  },
+  {
     id: 'grow-a-garden',
     name: 'Grow a Garden Wiki',
     subdomain: 'growagarden.robloxwikihub.com',
