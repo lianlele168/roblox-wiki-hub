@@ -195,7 +195,7 @@ export default function HomePage() {
 
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-700/50 text-indigo-300 text-xs font-semibold mb-6 shadow-sm">
           <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-          <span>Roblox Game Wiki Portal — 2026 Directory</span>
+          <span>Roblox Game Wiki Portal</span>
         </div>
 
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
@@ -204,7 +204,7 @@ export default function HomePage() {
         </h1>
 
         <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Access daily verified redeem codes, meta unit tier lists, item values, and fast leveling guides for the most popular Roblox games.
+          Verified redeem codes, meta unit tier lists, item values, and fast leveling guides for the most popular Roblox games.
         </p>
 
         {/* Search Bar */}
@@ -220,26 +220,6 @@ export default function HomePage() {
             />
           </div>
         </div>
-
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
-          <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-indigo-400">11</div>
-            <div className="text-xs text-slate-400 font-medium">Active Game Databases</div>
-          </div>
-          <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-cyan-400">100%</div>
-            <div className="text-xs text-slate-400">Tested Working Codes</div>
-          </div>
-          <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-amber-400">Daily</div>
-            <div className="text-xs text-slate-400">Patch & Code Updates</div>
-          </div>
-          <div className="bg-slate-900/60 border border-slate-800 p-4 rounded-xl">
-            <div className="text-2xl font-black text-pink-400">2026</div>
-            <div className="text-xs text-slate-400">Latest Game Versions</div>
-          </div>
-        </div>
       </section>
 
       {/* Game Wiki Cards Grid */}
@@ -248,7 +228,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-2xl font-bold text-white flex items-center gap-2">
               <BookOpen className="w-6 h-6 text-indigo-400" />
-              <span>Official Game Wikis ({filteredWikis.length})</span>
+              <span>Game Wikis</span>
             </h2>
             <p className="text-xs text-slate-400 mt-1">Select a game below to access its dedicated wiki database</p>
           </div>
@@ -387,7 +367,6 @@ export default function HomePage() {
 
         <div className="max-w-7xl mx-auto pt-8 mt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
           <p>© {new Date().getFullYear()} Roblox Wiki Hub. All rights reserved.</p>
-          <p className="mt-2 sm:mt-0">Updated for 2026 Game Updates</p>
         </div>
       </footer>
     </div>
