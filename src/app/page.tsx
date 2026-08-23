@@ -18,6 +18,18 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: '99-nights',
+    name: '99 Nights in the Forest Wiki',
+    subdomain: '99nights.robloxwikihub.com',
+    url: 'https://99nights.robloxwikihub.com',
+    category: 'Survival Horror / Open World',
+    icon: '🌲',
+    color: 'from-emerald-600 to-teal-800',
+    badge: '🔥 NEW Wiki & Calculator',
+    description: 'Interactive Survival Calculator, Class Tier List, Immortal Entity Tactics, Diamond Mining Tips, Flame Maintenance Guide & 2026 Codes.',
+    tags: ['Survival Calculator', 'Class Tier List', 'Active Codes', 'Entity Guide', 'Diamonds & Flame']
+  },
+  {
     id: 'fish-it',
     name: 'Fish It! Wiki (Fisch)',
     subdomain: 'fishit.robloxwikihub.com',

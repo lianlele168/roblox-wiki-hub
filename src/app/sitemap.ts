@@ -7,6 +7,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // 99 Nights in the Forest Wiki (NEW)
+    { url: 'https://99nights.robloxwikihub.com', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://99nights.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://99nights.robloxwikihub.com/calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://99nights.robloxwikihub.com/class-tier-list', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://99nights.robloxwikihub.com/entity-guide', priority: 0.8, changeFrequency: 'weekly' },
+
     // Anime Origins Wiki (NEW)
     { url: 'https://animeorigins.robloxwikihub.com', priority: 0.9, changeFrequency: 'daily' },
     { url: 'https://animeorigins.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
