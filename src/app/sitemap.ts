@@ -7,6 +7,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Steal a Brainrot Wiki (NEW)
+    { url: 'https://stealabrainrot.robloxwikihub.com', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/character-tier-list', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/steal-guide', priority: 0.8, changeFrequency: 'weekly' },
+
     // 99 Nights in the Forest Wiki (NEW)
     { url: 'https://99nights.robloxwikihub.com', priority: 0.9, changeFrequency: 'daily' },
     { url: 'https://99nights.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },

@@ -18,6 +18,18 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'steal-a-brainrot',
+    name: 'Steal a Brainrot Wiki',
+    subdomain: 'stealabrainrot.robloxwikihub.com',
+    url: 'https://stealabrainrot.robloxwikihub.com',
+    category: 'Meme Stealing / Tycoon / RNG',
+    icon: '🗿',
+    color: 'from-purple-600 via-pink-600 to-cyan-500',
+    badge: '🔥 NEW Steal Simulator & Codes',
+    description: 'Interactive Steal Success Calculator, Brainrot Meme Character Tier List, Rebirth Boost Guide & Verified 2026 Codes.',
+    tags: ['Steal Calculator', 'Meme Tier List', 'Active Codes', 'Shield Defense', 'Mutation Values']
+  },
+  {
     id: '99-nights',
     name: '99 Nights in the Forest Wiki',
     subdomain: '99nights.robloxwikihub.com',
