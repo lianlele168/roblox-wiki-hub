@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'little-troubles-in-spooky-town',
+    name: 'Little Troubles in Spooky Town Guide',
+    subdomain: 'littletroubles.robloxwikihub.com',
+    url: 'https://littletroubles.robloxwikihub.com',
+    category: 'Indie Adventure / HTML5',
+    icon: '👻',
+    color: 'from-violet-600 via-fuchsia-500 to-emerald-500',
+    badge: '🔥 NEW 11-Task Tracker & Walkthrough',
+    description: 'Complete all 11 town troubles with a dependency-aware walkthrough, saved task tracker, outfit ability unlocks, collectible locations, controls, and bug fixes.',
+    tags: ['11-Task Walkthrough', 'Saved Task Tracker', 'Outfit Abilities', 'Item Locations', 'How to Fly', 'Bug Fixes'],
+    isLive: true,
+  },
+  {
     id: 'win-a-world-championship',
     name: 'Win A World Championship Wiki',
     subdomain: 'winaworldchampionship.robloxwikihub.com',

@@ -7,6 +7,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Little Troubles in Spooky Town Guide (NEW)
+    { url: 'https://littletroubles.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://littletroubles.robloxwikihub.com/walkthrough/', priority: 0.9, changeFrequency: 'weekly' },
+    { url: 'https://littletroubles.robloxwikihub.com/tasks/', priority: 0.9, changeFrequency: 'weekly' },
+    { url: 'https://littletroubles.robloxwikihub.com/task-tracker/', priority: 0.9, changeFrequency: 'weekly' },
+    { url: 'https://littletroubles.robloxwikihub.com/outfits-abilities/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://littletroubles.robloxwikihub.com/item-locations/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://littletroubles.robloxwikihub.com/how-to-fly/', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://littletroubles.robloxwikihub.com/bugs-fixes/', priority: 0.75, changeFrequency: 'weekly' },
+
     // Win A World Championship Wiki (NEW)
     { url: 'https://winaworldchampionship.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://winaworldchampionship.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
