@@ -7,6 +7,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Dead Rails Wiki (NEW)
+    { url: 'https://deadrails.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://deadrails.robloxwikihub.com/fuel-calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://deadrails.robloxwikihub.com/cargo-trade-calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://deadrails.robloxwikihub.com/night-survival-simulator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://deadrails.robloxwikihub.com/weapons-tier-list', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://deadrails.robloxwikihub.com/class-roles', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://deadrails.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://deadrails.robloxwikihub.com/train-upgrades', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://deadrails.robloxwikihub.com/zombies-guide', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://deadrails.robloxwikihub.com/routes-map', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://deadrails.robloxwikihub.com/beginner-guide', priority: 0.8, changeFrequency: 'weekly' },
+
     // R.E.P.O. Wiki (NEW)
     { url: 'https://repo.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://repo.robloxwikihub.com/scrap-calculator', priority: 0.9, changeFrequency: 'daily' },

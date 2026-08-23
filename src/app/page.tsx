@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'dead-rails',
+    name: 'Dead Rails Wiki',
+    subdomain: 'deadrails.robloxwikihub.com',
+    url: 'https://deadrails.robloxwikihub.com',
+    category: 'Post-Apocalyptic Train Survival',
+    icon: '🚂',
+    color: 'from-amber-600 via-orange-600 to-[#070a0f]',
+    badge: '🔥 NEW Fuel Calc, Tier List & Codes',
+    description: 'Interactive Fuel Consumption Calculator, Weapons DPS Tier List, Train Cowcatcher Upgrades & 2026 Redeem Codes.',
+    tags: ['Fuel Calculator', 'Weapons Tier', 'Train Plating', 'Zombie Bestiary', 'Station Map', 'Active Codes'],
+    isLive: true,
+  },
+  {
     id: 'repo-wiki',
     name: 'R.E.P.O. Wiki',
     subdomain: 'repo.robloxwikihub.com',
