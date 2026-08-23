@@ -11,6 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://stealabrainrot.robloxwikihub.com', priority: 0.9, changeFrequency: 'daily' },
     { url: 'https://stealabrainrot.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
     { url: 'https://stealabrainrot.robloxwikihub.com/calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/summon-simulator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/trade-calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/raid-profit-calculator', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/fusion-guide', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://stealabrainrot.robloxwikihub.com/boss-schedule', priority: 0.8, changeFrequency: 'weekly' },
     { url: 'https://stealabrainrot.robloxwikihub.com/character-tier-list', priority: 0.8, changeFrequency: 'weekly' },
     { url: 'https://stealabrainrot.robloxwikihub.com/steal-guide', priority: 0.8, changeFrequency: 'weekly' },
 
