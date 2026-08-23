@@ -14,6 +14,7 @@ interface GameWiki {
   badge: string;
   description: string;
   tags: string[];
+  isLive?: boolean;
 }
 
 const WIKIS: GameWiki[] = [
@@ -25,9 +26,10 @@ const WIKIS: GameWiki[] = [
     category: 'PC Extraction Co-Op Horror',
     icon: '☣️',
     color: 'from-amber-600 via-yellow-600 to-slate-900',
-    badge: '🔥 NEW Scrap Calculator & Quota Formula',
+    badge: '🛠️ Local Build Ready',
     description: 'Scrap Impact Durability Calculator, Level Quota Target Formula, Gear Upgrade ROI, Monster Sound Aggro Guide & PC Console Commands.',
-    tags: ['Scrap Calculator', 'Quota Formula', 'Gear ROI', 'Monster Aggro', 'Item Values', 'Console Commands']
+    tags: ['Scrap Calculator', 'Quota Formula', 'Gear ROI', 'Monster Aggro', 'Item Values', 'Console Commands'],
+    isLive: false,
   },
   {
     id: 'steal-a-brainrot',
@@ -365,15 +367,21 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <a
-                href={wiki.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white text-xs font-bold flex items-center justify-center gap-2 transition-all shadow-md group-hover:shadow-indigo-600/20"
-              >
-                <span>Visit {wiki.name}</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </a>
+              {wiki.isLive !== false ? (
+                <a
+                  href={wiki.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white text-xs font-bold flex items-center justify-center gap-2 transition-all shadow-md group-hover:shadow-indigo-600/20"
+                >
+                  <span>Visit {wiki.name}</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              ) : (
+                <div className="w-full py-3 px-4 rounded-xl bg-slate-800/80 border border-slate-700/60 text-amber-400 text-xs font-semibold flex items-center justify-center gap-2 cursor-not-allowed opacity-90">
+                  <span>⚡ Code Local Ready (Deploy Pending)</span>
+                </div>
+              )}
             </div>
           ))}
         </div>

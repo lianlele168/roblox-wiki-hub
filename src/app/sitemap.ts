@@ -7,15 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
-    // R.E.P.O. Wiki (NEW)
-    { url: 'https://repo.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
-    { url: 'https://repo.robloxwikihub.com/scrap-calculator', priority: 0.9, changeFrequency: 'daily' },
-    { url: 'https://repo.robloxwikihub.com/quota-calculator', priority: 0.9, changeFrequency: 'daily' },
-    { url: 'https://repo.robloxwikihub.com/gear-calculator', priority: 0.8, changeFrequency: 'weekly' },
-    { url: 'https://repo.robloxwikihub.com/monsters-guide', priority: 0.8, changeFrequency: 'weekly' },
-    { url: 'https://repo.robloxwikihub.com/item-database', priority: 0.8, changeFrequency: 'weekly' },
-    { url: 'https://repo.robloxwikihub.com/console-commands', priority: 0.8, changeFrequency: 'weekly' },
-
     // Steal a Brainrot Wiki (NEW)
     { url: 'https://stealabrainrot.robloxwikihub.com', priority: 0.9, changeFrequency: 'daily' },
     { url: 'https://stealabrainrot.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
