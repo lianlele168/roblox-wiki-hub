@@ -7,6 +7,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Win A World Championship Wiki (NEW)
+    { url: 'https://winaworldchampionship.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/tier-list', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/best-team', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/beginner-guide', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/packs-guide', priority: 0.75, changeFrequency: 'weekly' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/reroll-guide', priority: 0.75, changeFrequency: 'weekly' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/formations', priority: 0.75, changeFrequency: 'weekly' },
+    { url: 'https://winaworldchampionship.robloxwikihub.com/updates', priority: 0.75, changeFrequency: 'daily' },
+
     // Dead Rails Wiki (NEW)
     { url: 'https://deadrails.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://deadrails.robloxwikihub.com/fuel-calculator', priority: 0.9, changeFrequency: 'daily' },

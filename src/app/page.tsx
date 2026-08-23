@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'win-a-world-championship',
+    name: 'Win A World Championship Wiki',
+    subdomain: 'winaworldchampionship.robloxwikihub.com',
+    url: 'https://winaworldchampionship.robloxwikihub.com',
+    category: 'Football Drafting / Sports',
+    icon: '🏆',
+    color: 'from-emerald-600 via-amber-500 to-slate-900',
+    badge: '🔥 NEW Codes, Reroll Calc & Tier List',
+    description: 'Working codes, reroll budget calculator, card archetype tier list, best team builder, pack strategy, formations, and update source tracking.',
+    tags: ['Active Codes', 'Reroll Calculator', 'Card Tier List', 'Best Team', 'Packs Guide', 'Formations'],
+    isLive: true,
+  },
+  {
     id: 'dead-rails',
     name: 'Dead Rails Wiki',
     subdomain: 'deadrails.robloxwikihub.com',
