@@ -18,6 +18,18 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'repo-wiki',
+    name: 'R.E.P.O. Wiki',
+    subdomain: 'repo.robloxwikihub.com',
+    url: 'https://repo.robloxwikihub.com',
+    category: 'PC Extraction Co-Op Horror',
+    icon: '☣️',
+    color: 'from-amber-600 via-yellow-600 to-slate-900',
+    badge: '🔥 NEW Scrap Calculator & Quota Formula',
+    description: 'Scrap Impact Durability Calculator, Level Quota Target Formula, Gear Upgrade ROI, Monster Sound Aggro Guide & PC Console Commands.',
+    tags: ['Scrap Calculator', 'Quota Formula', 'Gear ROI', 'Monster Aggro', 'Item Values', 'Console Commands']
+  },
+  {
     id: 'steal-a-brainrot',
     name: 'Steal a Brainrot Wiki',
     subdomain: 'stealabrainrot.robloxwikihub.com',
