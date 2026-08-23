@@ -26,10 +26,10 @@ const WIKIS: GameWiki[] = [
     category: 'PC Extraction Co-Op Horror',
     icon: '☣️',
     color: 'from-amber-600 via-yellow-600 to-slate-900',
-    badge: '🛠️ Local Build Ready',
+    badge: '🔥 NEW Scrap Calculator & Quota Formula',
     description: 'Scrap Impact Durability Calculator, Level Quota Target Formula, Gear Upgrade ROI, Monster Sound Aggro Guide & PC Console Commands.',
     tags: ['Scrap Calculator', 'Quota Formula', 'Gear ROI', 'Monster Aggro', 'Item Values', 'Console Commands'],
-    isLive: false,
+    isLive: true,
   },
   {
     id: 'steal-a-brainrot',
