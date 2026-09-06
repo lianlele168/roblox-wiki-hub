@@ -29,7 +29,7 @@ const WIKIS: GameWiki[] = [
     badge: '🚀 Pre-Launch: October 2026 Early Access',
     description: 'Release tracker for SuperGaming’s Roblox-exclusive hero shooter: October 2026 early access window, six launch heroes, five abilities each, and verified announcement facts.',
     tags: ['Release Tracker', 'Roster Explorer', '6 Heroes / 5 Abilities', 'Prime Universe', 'News Log'],
-    isLive: false,
+    isLive: true,
   },
   {
     id: 'worm-capitalist',

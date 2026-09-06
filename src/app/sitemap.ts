@@ -7,6 +7,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Prime Heroes Wiki (NEW)
+    { url: 'https://primeheroes.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://primeheroes.robloxwikihub.com/what-is-prime-heroes/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://primeheroes.robloxwikihub.com/release-date/', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://primeheroes.robloxwikihub.com/heroes/', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://primeheroes.robloxwikihub.com/prime-universe/', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://primeheroes.robloxwikihub.com/news/', priority: 0.8, changeFrequency: 'daily' },
+
     // Worm Capitalist Guide (NEW)
     { url: 'https://wormcapitalist.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://wormcapitalist.robloxwikihub.com/walkthrough/', priority: 0.9, changeFrequency: 'weekly' },
