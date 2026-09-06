@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'prime-heroes',
+    name: 'Prime Heroes Wiki',
+    subdomain: 'primeheroes.robloxwikihub.com',
+    url: 'https://primeheroes.robloxwikihub.com',
+    category: 'Hero Shooter / FPS',
+    icon: '🚀',
+    color: 'from-indigo-600 via-violet-500 to-cyan-500',
+    badge: '🚀 Pre-Launch: October 2026 Early Access',
+    description: 'Release tracker for SuperGaming’s Roblox-exclusive hero shooter: October 2026 early access window, six launch heroes, five abilities each, and verified announcement facts.',
+    tags: ['Release Tracker', 'Roster Explorer', '6 Heroes / 5 Abilities', 'Prime Universe', 'News Log'],
+    isLive: false,
+  },
+  {
     id: 'worm-capitalist',
     name: 'Worm Capitalist Guide',
     subdomain: 'wormcapitalist.robloxwikihub.com',
