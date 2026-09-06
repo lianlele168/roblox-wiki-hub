@@ -7,6 +7,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Worm Capitalist Guide (NEW)
+    { url: 'https://wormcapitalist.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/walkthrough/', priority: 0.9, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/profit-calculator/', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/upgrade-checklist/', priority: 0.9, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/skill-tree/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/upgrades/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/rebirth/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/automation/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/steam-demo/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://wormcapitalist.robloxwikihub.com/bugs-fixes/', priority: 0.75, changeFrequency: 'weekly' },
+
     // Little Troubles in Spooky Town Guide (NEW)
     { url: 'https://littletroubles.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://littletroubles.robloxwikihub.com/walkthrough/', priority: 0.9, changeFrequency: 'weekly' },

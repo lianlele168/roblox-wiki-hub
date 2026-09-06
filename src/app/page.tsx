@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'worm-capitalist',
+    name: 'Worm Capitalist Guide',
+    subdomain: 'wormcapitalist.robloxwikihub.com',
+    url: 'https://wormcapitalist.robloxwikihub.com',
+    category: 'Idle / Incremental Simulation',
+    icon: '🪱',
+    color: 'from-amber-600 via-lime-500 to-emerald-700',
+    badge: '🔥 NEW Profit Calculator & Skill Tree',
+    description: 'Demo walkthrough, profit-per-minute estimator, upgrade checklist, colony point skill tree priorities, rebirth timing, automation, and bug fixes.',
+    tags: ['Profit Calculator', 'Upgrade Checklist', 'Skill Tree', 'Rebirth Guide', 'Steam Demo Tracker', 'Bug Fixes'],
+    isLive: true,
+  },
+  {
     id: 'little-troubles-in-spooky-town',
     name: 'Little Troubles in Spooky Town Guide',
     subdomain: 'littletroubles.robloxwikihub.com',
