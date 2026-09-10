@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'anime-dice',
+    name: 'Anime Dice Wiki',
+    subdomain: 'animedice.robloxwikihub.com',
+    url: 'https://animedice.robloxwikihub.com',
+    category: 'Anime Gacha / Dice Simulator',
+    icon: '🎲',
+    color: 'from-cyan-500 via-indigo-600 to-purple-600',
+    badge: '🔥 NEW Luck Odds Simulator, Codes & 13 Traits',
+    description: 'Interactive Luck & Secret Pull Simulator, Working 2026 Redeem Codes, 13 Traits Tier List & Dual Compare, 15 Sextillion Chrono Dice Stats, and Rebirth Milestones.',
+    tags: ['Luck Simulator', 'Active Codes', '13 Traits Tier', 'Dual Compare', 'Chrono Dice', 'Grades Multipliers'],
+    isLive: true,
+  },
+  {
     id: 'last-stop',
     name: 'Last Stop Wiki',
     subdomain: 'laststop.robloxwikihub.com',

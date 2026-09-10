@@ -7,6 +7,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Anime Dice Wiki (NEW)
+    { url: 'https://animedice.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://animedice.robloxwikihub.com/calculator/', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://animedice.robloxwikihub.com/codes/', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://animedice.robloxwikihub.com/traits-tier-list/', priority: 0.9, changeFrequency: 'weekly' },
+    { url: 'https://animedice.robloxwikihub.com/units-database/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://animedice.robloxwikihub.com/dice-guide/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://animedice.robloxwikihub.com/grades-guide/', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://animedice.robloxwikihub.com/rebirth-guide/', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://animedice.robloxwikihub.com/beginner-guide/', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://animedice.robloxwikihub.com/about/', priority: 0.5, changeFrequency: 'monthly' },
+    { url: 'https://animedice.robloxwikihub.com/privacy-policy/', priority: 0.5, changeFrequency: 'monthly' },
+
     // Last Stop Wiki (NEW)
     { url: 'https://laststop.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://laststop.robloxwikihub.com/calculator', priority: 0.9, changeFrequency: 'daily' },
