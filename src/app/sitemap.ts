@@ -7,6 +7,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main Hub
     { url: 'https://robloxwikihub.com', priority: 1.0, changeFrequency: 'daily' },
 
+    // Last Stop Wiki (NEW)
+    { url: 'https://laststop.robloxwikihub.com', priority: 0.95, changeFrequency: 'daily' },
+    { url: 'https://laststop.robloxwikihub.com/calculator', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://laststop.robloxwikihub.com/codes', priority: 0.9, changeFrequency: 'daily' },
+    { url: 'https://laststop.robloxwikihub.com/class-tier-list', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://laststop.robloxwikihub.com/weapons-guide', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://laststop.robloxwikihub.com/bus-upgrades', priority: 0.85, changeFrequency: 'weekly' },
+    { url: 'https://laststop.robloxwikihub.com/zombies-bestiary', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://laststop.robloxwikihub.com/beginner-guide', priority: 0.8, changeFrequency: 'weekly' },
+    { url: 'https://laststop.robloxwikihub.com/about', priority: 0.5, changeFrequency: 'monthly' },
+    { url: 'https://laststop.robloxwikihub.com/privacy-policy', priority: 0.5, changeFrequency: 'monthly' },
+
     // Prime Heroes Wiki (NEW)
     { url: 'https://primeheroes.robloxwikihub.com/', priority: 0.95, changeFrequency: 'daily' },
     { url: 'https://primeheroes.robloxwikihub.com/what-is-prime-heroes/', priority: 0.85, changeFrequency: 'weekly' },

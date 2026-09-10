@@ -19,6 +19,19 @@ interface GameWiki {
 
 const WIKIS: GameWiki[] = [
   {
+    id: 'last-stop',
+    name: 'Last Stop Wiki',
+    subdomain: 'laststop.robloxwikihub.com',
+    url: 'https://laststop.robloxwikihub.com',
+    category: 'Post-Apocalyptic Bus Survival',
+    icon: '🚌',
+    color: 'from-amber-600 via-orange-600 to-[#050811]',
+    badge: '🔥 NEW 95k Fuel Simulator, Codes & Classes',
+    description: 'Interactive 95,000m Bus Fuel Range Calculator, 12 Classes Tier List, Weapons Database, Spiked Cowcatcher Upgrades & 2026 Redeem Codes.',
+    tags: ['95k Fuel Simulator', 'Active Codes (FRED)', '12 Classes Tier', 'Dual Compare', 'Weapons Database', 'Bestiary'],
+    isLive: true,
+  },
+  {
     id: 'prime-heroes',
     name: 'Prime Heroes Wiki',
     subdomain: 'primeheroes.robloxwikihub.com',
