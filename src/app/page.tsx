@@ -371,7 +371,7 @@ export default function HomePage() {
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-300">
             <a href="#wikis" className="hover:text-indigo-400 transition-colors">Wiki Directory</a>
             <a href="#features" className="hover:text-indigo-400 transition-colors">Features</a>
-            <a href="#about" className="hover:text-indigo-400 transition-colors">About Us</a>
+            <a href="/about" className="hover:text-indigo-400 transition-colors font-semibold text-indigo-300">About & Standards</a>
           </nav>
         </div>
       </header>
@@ -560,8 +560,13 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto pt-8 mt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Roblox Wiki Hub. All rights reserved.</p>
+        <div className="max-w-7xl mx-auto pt-8 mt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+          <p>© {new Date().getFullYear()} Roblox Wiki Hub. Lead Webmaster: lianlele168.</p>
+          <div className="flex items-center gap-4">
+            <a href="/about" className="hover:text-indigo-400 font-semibold text-slate-300 transition-colors">About & Editorial Standards</a>
+            <span>•</span>
+            <a href="mailto:lianlele168@gmail.com" className="hover:text-indigo-400 text-slate-400 transition-colors">Contact (lianlele168@gmail.com)</a>
+          </div>
         </div>
       </footer>
     </div>
