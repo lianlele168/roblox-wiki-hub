@@ -3,9 +3,6 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://robloxwikihub.com'),
-  alternates: {
-    canonical: '/',
-  },
   title: "Roblox Wiki Hub - Premier Roblox Game Guides, Active Codes & Tier Lists (2026)",
   description: "Your ultimate community directory for top Roblox game guides. Access daily active redeem codes, meta unit tier lists, item values, and beginner leveling guides.",
   keywords: [
