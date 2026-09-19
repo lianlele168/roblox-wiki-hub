@@ -562,7 +562,7 @@ export default function HomeClient() {
 
         <div className="max-w-7xl mx-auto pt-8 mt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
           <p>© {new Date().getFullYear()} Roblox Wiki Hub. Lead Webmaster: lianlele168.</p>
-          <p className="mt-1 text-[11px] text-slate-500">Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</p>
+          <p className="mt-1 text-[11px] text-slate-500">Reviewed by Hlele · Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</p>
           <div className="flex items-center gap-4">
             <a href="/about" className="hover:text-indigo-400 font-semibold text-slate-300 transition-colors">About & Editorial Standards</a>
             <span>•</span>
