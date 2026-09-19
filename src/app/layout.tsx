@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "destined rivals tier list",
     "type soul reroll codes"
   ],
-  authors: [{ name: "Roblox Wiki Hub Team" }],
+  authors: [{ name: "Hlele" }],
   openGraph: {
     title: "Roblox Wiki Hub - Premier Roblox Game Database Portal",
     description: "Daily updated active codes, meta tier lists, and gameplay guides for top Roblox games.",
