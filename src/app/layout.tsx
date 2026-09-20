@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL('https://robloxwikihub.com'),
   title: "Roblox Wiki Hub - Premier Roblox Game Guides, Active Codes & Tier Lists (2026)",
-  description: "Your ultimate community directory for top Roblox game guides. Access daily active redeem codes, meta unit tier lists, item values, and beginner leveling guides.",
+  description: "Your ultimate community directory for top Roblox game guides. Access active redeem codes, meta unit tier lists, item values, and beginner leveling guides.",
   keywords: [
     "roblox wiki hub",
     "roblox wiki",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Hlele" }],
   openGraph: {
     title: "Roblox Wiki Hub - Premier Roblox Game Database Portal",
-    description: "Daily updated active codes, meta tier lists, and gameplay guides for top Roblox games.",
+    description: "Active codes, meta tier lists, and gameplay guides for top Roblox games.",
     url: "https://robloxwikihub.com",
     siteName: "Roblox Wiki Hub",
     type: "website",
@@ -42,7 +42,7 @@ export default function RootLayout({
     '@type': 'WebSite',
     name: 'Roblox Wiki Hub',
     url: 'https://robloxwikihub.com',
-    description: 'Premier Roblox game database portal providing daily active codes, tier lists, and gameplay guides.',
+    description: 'Roblox game guide portal providing active codes, tier lists, and gameplay guides.',
   };
 
   return (

@@ -490,7 +490,7 @@ export default function HomeClient() {
             <div className="w-10 h-10 rounded-xl bg-indigo-950 flex items-center justify-center text-indigo-400 border border-indigo-800/50">
               <ShieldCheck className="w-5 h-5" />
             </div>
-            <h3 className="font-bold text-sm text-white">Daily Code Verification</h3>
+            <h3 className="font-bold text-sm text-white">Source-Checked Codes</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
               Our team tests codes across official Roblox Discord servers and game updates every day to guarantee 100% active, non-expired rewards.
             </p>

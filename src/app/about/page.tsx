@@ -4,7 +4,7 @@ import { ShieldCheck, Mail, CheckCircle2, UserCheck, Gamepad2, ArrowLeft, Refres
 
 export const metadata: Metadata = {
   title: 'About Us, Editorial Standards & Trust Center | Roblox Wiki Hub',
-  description: 'Official publisher details for Roblox Wiki Hub. Meet Lead Webmaster lianlele168, learn our twice-daily code verification process, and review our COPPA child safety pledge.',
+  description: 'Publisher details for Roblox Wiki Hub. Meet the site owner lianlele168, see how we check codes against public sources, and review our COPPA child safety pledge.',
   alternates: {
     canonical: '/about',
   },
@@ -113,7 +113,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-base font-bold text-white">1. Live Server Code Testing</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                We never scrape unverified code aggregators. Every single redeem code is manually tested by our team inside live Roblox servers (both public and VIP servers) twice daily. Codes are immediately flagged as EXPIRED the moment they stop working.
+                We do not republish codes from unverified aggregators. Every code we list is cross-checked against the developer's official channels and at least two independent public sources. Codes that stop working are moved to the expired list rather than quietly deleted.
               </p>
             </div>
 
