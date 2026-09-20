@@ -38,7 +38,7 @@ export default function AboutPage() {
             About Roblox Wiki Hub
           </h1>
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl">
-            Roblox Wiki Hub is an independent player-first knowledge network dedicated to publishing 100% verified redeem codes, mathematically accurate probability calculators, and comprehensive meta strategy guides for top Roblox experiences.
+            Roblox Wiki Hub is an independent, player-first knowledge network publishing redeem codes, probability calculators, and meta strategy guides for popular Roblox experiences. Figures are cross-checked against public sources.
           </p>
         </section>
 
@@ -53,11 +53,11 @@ export default function AboutPage() {
                 <div className="flex items-center gap-2">
                   <h2 className="text-xl font-bold text-white">lianlele168</h2>
                   <span className="text-[11px] font-bold bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 px-2 py-0.5 rounded-full">
-                    Lead Webmaster & Data Architect
+                    Site owner & Editor
                   </span>
                 </div>
                 <p className="text-xs text-slate-400 mt-1">
-                  Founder & Senior Editor of Roblox Wiki Hub • Active Community Analyst
+                  Founder of Roblox Wiki Hub • Independent guide author
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function AboutPage() {
             <div className="rounded-xl border border-slate-800/80 bg-slate-900/50 p-4 space-y-1">
               <p className="text-xs font-bold text-slate-400">Direct Inquiries</p>
               <p className="text-sm font-semibold text-white">lianlele168@gmail.com</p>
-              <p className="text-[11px] text-slate-500">48h verified response SLA</p>
+              <p className="text-[11px] text-slate-500">Corrections handled by email</p>
             </div>
             <div className="rounded-xl border border-slate-800/80 bg-slate-900/50 p-4 space-y-1">
               <p className="text-xs font-bold text-slate-400">Editorial Scope</p>
@@ -87,7 +87,7 @@ export default function AboutPage() {
             <div className="rounded-xl border border-slate-800/80 bg-slate-900/50 p-4 space-y-1">
               <p className="text-xs font-bold text-slate-400">Child Safety</p>
               <p className="text-sm font-semibold text-emerald-400 flex items-center gap-1">
-                <CheckCircle2 className="w-3.5 h-3.5" /> 100% COPPA Compliant
+                <CheckCircle2 className="w-3.5 h-3.5" /> No under-13 data collected
               </p>
               <p className="text-[11px] text-slate-500">Zero data collection under 13</p>
             </div>
@@ -102,7 +102,7 @@ export default function AboutPage() {
               <span>Editorial Testing & Fact-Checking Methodology</span>
             </h2>
             <p className="text-sm text-slate-400">
-              How our editorial team ensures every code, stat, and formula published across our network is 100% accurate and trustworthy.
+              How the codes, stats, and formulas published across our network are cross-checked against public sources.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export default function AboutPage() {
               <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
                 <RefreshCw className="w-5 h-5" />
               </div>
-              <h3 className="text-base font-bold text-white">1. Live Server Code Testing</h3>
+              <h3 className="text-base font-bold text-white">1. Source-Checked Codes</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
                 We do not republish codes from unverified aggregators. Every code we list is cross-checked against the developer's official channels and at least two independent public sources. Codes that stop working are moved to the expired list rather than quietly deleted.
               </p>
@@ -123,7 +123,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-base font-bold text-white">2. Mathematical Simulator Calibration</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Our custom reroll, pity, and fuel calculators are derived directly from verified game patch notes, data-table dumps, and thousands of match test simulations. Formulas run 100% client-side in your web browser with zero server roundtrips.
+                Our custom calculators are built from publicly documented game values and patch notes where those exist. Every model estimate is labelled as an estimate, and the formulas run entirely client-side in your browser.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-base font-bold text-white">3. Patch-Bound Tier Lists</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Rankings are never static. Whenever a game developer pushes a balance update or weapon nerf, our analysts revise unit placements, add patch changelog notes, and display the exact verified patch version in the author stamp.
+                Rankings are never static. When a developer pushes a balance update, we revise unit placements and add changelog notes where a patch is documented.
               </p>
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function AboutPage() {
           <div className="space-y-2 max-w-xl">
             <h3 className="text-lg font-bold text-white">Found an Expired Code or Outdated Stat?</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Help us keep the wiki network pristine for all players. If a developer recently pushed a ninja patch or a code expired ahead of schedule, send our editorial team an email directly.
+              Help us keep the wiki network pristine for all players. If a developer recently pushed a ninja patch or a code expired ahead of schedule, email us directly.
             </p>
           </div>
           <a
@@ -184,7 +184,7 @@ export default function AboutPage() {
 
       {/* Footer */}
       <footer className="max-w-5xl mx-auto px-4 sm:px-6 pt-12 mt-12 border-t border-slate-800/80 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p>© {new Date().getFullYear()} Roblox Wiki Hub. Lead Webmaster: lianlele168.</p>
+        <p>© {new Date().getFullYear()} Roblox Wiki Hub. Maintained by lianlele168.</p>
         <div className="flex items-center gap-4">
           <Link href="/" className="hover:text-indigo-400 transition-colors">Portal Home</Link>
           <a href="mailto:lianlele168@gmail.com" className="hover:text-indigo-400 transition-colors">Contact (lianlele168@gmail.com)</a>

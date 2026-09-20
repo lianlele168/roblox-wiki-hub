@@ -53,7 +53,7 @@ const WIKIS: GameWiki[] = [
     icon: '🚀',
     color: 'from-indigo-600 via-violet-500 to-cyan-500',
     badge: '🚀 Pre-Launch: Early Access',
-    description: 'Release tracker for SuperGaming’s Roblox-exclusive hero shooter: early access window, six launch heroes, five abilities each, and verified announcement facts.',
+    description: 'Release tracker for SuperGaming’s Roblox-exclusive hero shooter: early access window, six launch heroes, five abilities each, and the announcement facts published so far.',
     tags: ['Release Tracker', 'Roster Explorer', '6 Heroes / 5 Abilities', 'Prime Universe', 'News Log'],
     isLive: true,
   },
@@ -251,7 +251,7 @@ const WIKIS: GameWiki[] = [
     icon: '👑',
     color: 'from-pink-500 to-rose-600',
     badge: 'Runway Combo Guide',
-    description: 'Verified clothes redeem codes, 5-minute theme outfit recipes, clothing layering hacks, and 5-star runway tips.',
+    description: 'Clothes redeem codes, 5-minute theme outfit recipes, clothing layering hacks, and 5-star runway tips.',
     tags: ['Free Clothes Codes', 'Theme Combos', 'Layering Hacks', 'Pose Tier List']
   },
   {
@@ -393,7 +393,7 @@ export default function HomeClient() {
         </h1>
 
         <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Verified redeem codes, meta unit tier lists, item values, and fast leveling guides for the most popular Roblox games.
+          Redeem codes, meta unit tier lists, item values, and fast leveling guides for the most popular Roblox games.
         </p>
 
         {/* Search Bar */}
@@ -492,7 +492,7 @@ export default function HomeClient() {
             </div>
             <h3 className="font-bold text-sm text-white">Source-Checked Codes</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Our team tests codes across official Roblox Discord servers and game updates every day to guarantee 100% active, non-expired rewards.
+              We cross-check every code against official developer channels and at least two independent public sources, and move dead codes to the expired list.
             </p>
           </div>
 
@@ -561,7 +561,7 @@ export default function HomeClient() {
         </div>
 
         <div className="max-w-7xl mx-auto pt-8 mt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
-          <p>© {new Date().getFullYear()} Roblox Wiki Hub. Lead Webmaster: lianlele168.</p>
+          <p>© {new Date().getFullYear()} Roblox Wiki Hub. Maintained by lianlele168.</p>
           <p className="mt-1 text-[11px] text-slate-500">Reviewed by Hlele · Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</p>
           <div className="flex items-center gap-4">
             <a href="/about" className="hover:text-indigo-400 font-semibold text-slate-300 transition-colors">About & Editorial Standards</a>
