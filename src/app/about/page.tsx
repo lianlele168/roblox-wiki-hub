@@ -22,7 +22,7 @@ export default function AboutPage() {
           </Link>
           <div className="flex items-center gap-2 text-xs font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-1 rounded-full">
             <ShieldCheck className="w-3.5 h-3.5" />
-            <span>VERIFIED PUBLISHER ENTITY</span>
+            <span>PUBLISHER DETAILS</span>
           </div>
         </div>
       </header>
